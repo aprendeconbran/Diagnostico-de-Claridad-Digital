@@ -493,8 +493,8 @@
         // CONFIGURACIÓN - Reemplaza con tus URLs reales
         const CONFIG = {
             googleSheetsURL: 'https://script.google.com/macros/s/AKfycbx-RyQiJe8Y_4Ecye0QU1U4HtfMneDkGtGLknyqG9pwCCh5gOGUOuuFJfrQapTd_dMi/exec',
-            beaconsAPIKey: 'TU_API_KEY_DE_BEACONS_AQUI',
-            beaconsListID: 'TU_LIST_ID_DE_BEACONS_AQUI',
+            /*beaconsAPIKey: 'TU_API_KEY_DE_BEACONS_AQUI',
+            beaconsListID: 'TU_LIST_ID_DE_BEACONS_AQUI',*/
             documentos: {
                 CONFUNDIDO: 'https://tusitio.com/guia-confundido',
                 SATURADO: 'https://tusitio.com/guia-saturado',
@@ -549,7 +549,7 @@
             }
         }
 
-        async function sincronizarConBeacons(nombre, correo, etiqueta) {
+        /*async function sincronizarConBeacons(nombre, correo, etiqueta) {
             try {
                 await fetch('https://api.beacons.ai/v1/contacts', {
                     method: 'POST',
@@ -570,7 +570,7 @@
                 console.error('Error al sincronizar con Beacons:', error);
                 return false;
             }
-        }
+        }*/
 
         async function enviarFormulario() {
             // Obtener valores
